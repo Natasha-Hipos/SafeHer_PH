@@ -485,32 +485,109 @@ function App() {
 
         <section id="team" style={{ background: "var(--surface)" }}>
           <div className="wrap team">
-            <h2>About this project</h2>
+            <h2>Members:</h2>
 
             <p className="lead">
-              Made for Gender and Society. Replace the placeholders below with
-              your group's names and roles.
+              Creator of SafeHer PH Website 
             </p>
 
-            <div className="cards" style={{ marginTop: 20 }}>
-              <div className="card">
-                <h3>[Member 1 name]</h3>
-                [Role, e.g. Researcher]
+            <div
+  className="cards"
+  style={{
+    marginTop: 20,
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+  }}
+>
+  <div
+    className="card"
+    style={{
+      padding: 0,
+      overflow: "hidden",
+      textAlign: "center",
+    }}
+  >
+    <img
+      src="/AteMarzin.jpg"
+      alt="Marzin L. Delgado"
+      style={{
+        width: "100%",
+        height: "220px",
+        objectFit: "cover",
+        display: "block",
+      }}
+    />
+                <div style={{ padding: "16px" }}>
+                  <h3>Marzin L. Delgado</h3>
+                </div>
               </div>
 
-              <div className="card">
-                <h3>[Member 2 name]</h3>
-                [Role, e.g. Designer]
+              <div
+                className="card"
+                style={{
+                  padding: 0,
+                  overflow: "hidden",
+                  textAlign: "center",
+                }}
+              >
+                <img
+                  src="/Zaiah.png"
+                  alt="Natasha M. Hipos"
+                  style={{
+                    width: "100%",
+                    height: "220px",
+                    objectFit: "cover",
+                    display: "block",
+                  }}
+                />
+                <div style={{ padding: "16px" }}>
+                  <h3>Natasha M. Hipos</h3>
+                </div>
               </div>
 
-              <div className="card">
-                <h3>[Member 3 name]</h3>
-                [Role, e.g. Developer]
+              <div
+                className="card"
+                style={{
+                  padding: 0,
+                  overflow: "hidden",
+                  textAlign: "center",
+                }}
+              >
+                <img
+                  src="/AteCristy.jpg"
+                  alt="Cristy D. Janoras"
+                  style={{
+                    width: "100%",
+                    height: "220px",
+                    objectFit: "cover",
+                    display: "block",
+                  }}
+                />
+                <div style={{ padding: "16px" }}>
+                  <h3>Cristy D. Janoras</h3>
+                </div>
               </div>
 
-              <div className="card">
-                <h3>[Member 4 name]</h3>
-                [Role, optional]
+              <div
+                className="card"
+                style={{
+                  padding: 0,
+                  overflow: "hidden",
+                  textAlign: "center",
+                }}
+              >
+                <img
+                  src="/Rena.jpg"
+                  alt="Renalyn G. Gordola"
+                  style={{
+                    width: "100%",
+                    height: "220px",
+                    objectFit: "cover",
+                    display: "block",
+                  }}
+                />
+                <div style={{ padding: "16px" }}>
+                  <h3>Renalyn G. Gordola</h3>
+                </div>
               </div>
             </div>
           </div>
